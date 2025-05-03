@@ -23,7 +23,7 @@
         box-shadow: 0 0 5px #fffacd, 0 0 10px #ffec42;
       }
       50% {
-        box-shadow: 0 0 15px #fffacd, 0 0 25px #ffe81d;
+        box-shadow: 0 0 2px #fffacd, 0 0 5px #ffe81d;
       }
       100% {
         box-shadow: 0 0 5px #fffacd, 0 0 10px #fffacd;
@@ -114,7 +114,34 @@
     background-color: var(--primary-color);
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    text-align: center;
   }
+  
+  .card p {
+    text-align: left;
+    padding-bottom: 10%;
+  }
+  
+  .card .light-yellow-link-button {
+    text-align: right;
+    
+  }
+
+  .useai {
+    flex: 1;
+    min-width: 250px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 60px 40px;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-left: 0%;
+    text-align: center;
+  }
+.useai p {
+  text-align: left;
+  padding-left: 34%;
+}
 
   .contact-form {
     max-width: 500px;
